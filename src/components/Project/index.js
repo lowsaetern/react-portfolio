@@ -48,7 +48,7 @@ function Project() {
           <div className='col-lg-6 col-sm-12 py-3 text-center'>
             <div>
               <img
-                src={require(`../assets/thumbnails/${x.img}.PNG`).default}
+                src={require(`../../assets/thumbnails/${x.img}.PNG`).default}
                 alt={x.name}
                 width='350px'
                 key={x.name}
